@@ -18,7 +18,7 @@ function calculateTotalPrice(obj) {
     for (let key in cartForParty) {
         //sum += Object.keys(cartForParty);
         //console.log(cartForParty[key])
-        sum += cartForParty[key];
+        sum += parseInt(cartForParty[key]);
       }
       console.log(sum); 
     return 'Total: €' + sum

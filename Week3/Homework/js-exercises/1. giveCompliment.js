@@ -7,4 +7,7 @@ function giveCompliment(name) {
     //console.log(randomCompliment);
     return `you are `+ randomCompliment +', ' + name;
     }
+
+    
+    console.log(giveCompliment('Ahmad'));
     console.log(giveCompliment('Ahmad'));
